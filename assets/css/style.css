@@ -339,6 +339,15 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
+.glass-message-box {
+  color: rgba(255, 255, 255, 0.767);
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(219deg, rgba(25, 135, 84, 1) 50%, rgba(255, 255, 255, 1) 100%);
+  opacity: 0.75;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .form-control {
   border-radius: 0.6rem;
   resize: none;
