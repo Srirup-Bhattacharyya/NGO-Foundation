@@ -1,84 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Social Welfare Organization</title>
-    <link
-      rel="stylesheet"
-      href="./assets/lib/bootstrap-5.0.2-dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="shortcut icon"
-      href="./assets/logo/logo.svg"
-      type="image/x-icon"
-    />
-    <script
-      src="./assets/lib/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"
-      defer
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm py-3">
-      <div class="container-fluid px-5">
-        <a class="navbar-brand" href="#">
-          <img src="./assets/logo/Name.svg" alt="NGO-Logo" class="logo" />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Welfare Organization</title>
+  <link rel="stylesheet" href="./assets/lib/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+  <link rel="shortcut icon" href="./assets/logo/logo.svg" type="image/x-icon" />
+  <script src="./assets/lib/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mainNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body>
+  <!-- ================================================================= -->
+  <!-- NAVIGATION MENU - Site logo and primary links                 -->
+  <!-- ================================================================= -->
+  <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm py-3">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/logo/Name.svg" alt="NGO-Logo" class="logo" />
+      </a>
 
-        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
-          <ul class="navbar-nav fw-medium">
-            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#activities">Activities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#donation">Donation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#membership">Membership</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav fw-medium">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activities">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#donation">Donation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#membership">Membership</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <section id="hero" class="hero-section d-flex align-items-center">
-      <!-- <div class="container">
+    </div>
+  </nav>
+  <!-- ================================================================= -->
+  <!-- HERO SECTION - Main landing slider/visuals                    -->
+  <!-- ================================================================= -->
+  <section id="hero" class="hero-section d-flex align-items-center">
+    <!-- <div class="container">
             <div class="row align-items-center">
 
                 <div class="col-lg-6 col-12">
@@ -100,541 +85,529 @@
 
             </div>
         </div> -->
-      <div class="container-fluid h-100 p-0 m-0">
-        <!-- Swiper -->
-        <div class="swiper heroSwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="https://images.unsplash.com/photo-1766854269605-bd06cb72217e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="https://images.unsplash.com/photo-1766839236852-2269734af68f?q=80&w=1187&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="https://images.unsplash.com/photo-1766839236852-2269734af68f?q=80&w=1187&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="https://images.unsplash.com/photo-1545285446-ff15b9e9b9b9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </section>
-    <section id="about" class="py-5 about-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-            <p class="about-lead">About Our Mission</p>
-
-            <h2 class="fw-bold mb-4 about-title">Who we are</h2>
-
-            <p class="about-text">
-              Mohammadpur Probashi Foundation is a food-redistribution
-              initiative inspired by organizations like FoodBox Foundation. We
-              help restaurants, caterers, and home kitchens donate their extra,
-              safe-to-eat food to verified NGOs, shelters, and community groups
-              – quickly and transparently?
-            </p>
-
-            <p class="about-text">
-              Our model reduces food waste, lowers carbon impact, and supports
-              vulnerable communities. With a caring network of partners and
-              volunteers, we ensure surplus meals reach plates – not landfills.
-            </p>
-
-            <div class="mt-4">
-              <span class="badge rounded-pill about-badge">Food Rescue</span>
-              <span class="badge rounded-pill about-badge">Zero Waste</span>
-              <span class="badge rounded-pill about-badge"
-                >Community First</span
-              >
-              <span class="badge rounded-pill about-badge">Safe & Timely</span>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-12 shadow-sm p-3 mb-5 bg-body rounded-3">
+    <div class="container-fluid h-100 p-0 m-0">
+      <!-- Swiper -->
+      <div class="swiper heroSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <img
-              src="https://t3.ftcdn.net/jpg/06/09/17/28/360_F_609172824_3aGSl8APxrmRROA4AXNL2ZcKrayp4Dpa.jpg"
-              class="card-img-top rounded-4"
-              alt="Community"
-            />
-            <div class="card-body py-3">
-              <p class="mb-0 about-caption">Care. Dignity. Nourishment.</p>
+              src="https://images.unsplash.com/photo-1766854269605-bd06cb72217e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="">
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://images.unsplash.com/photo-1766839236852-2269734af68f?q=80&w=1187&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="">
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://images.unsplash.com/photo-1766839236852-2269734af68f?q=80&w=1187&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="">
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://images.unsplash.com/photo-1545285446-ff15b9e9b9b9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="">
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://images.unsplash.com/photo-1766394609400-0e7b1548cd30?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================= -->
+  <!-- ABOUT SECTION - Mission statement and organization history    -->
+  <!-- ================================================================= -->
+  <section id="about" class="py-5 about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+          <p class="about-lead">About Our Mission</p>
+
+          <h2 class="fw-bold mb-4 about-title">Who we are</h2>
+
+          <p class="about-text">
+            Mohammadpur Probashi Foundation is a food-redistribution
+            initiative inspired by organizations like FoodBox Foundation. We
+            help restaurants, caterers, and home kitchens donate their extra,
+            safe-to-eat food to verified NGOs, shelters, and community groups
+            – quickly and transparently?
+          </p>
+
+          <p class="about-text">
+            Our model reduces food waste, lowers carbon impact, and supports
+            vulnerable communities. With a caring network of partners and
+            volunteers, we ensure surplus meals reach plates – not landfills.
+          </p>
+
+          <div class="mt-4">
+            <span class="badge rounded-pill about-badge">Food Rescue</span>
+            <span class="badge rounded-pill about-badge">Zero Waste</span>
+            <span class="badge rounded-pill about-badge">Community First</span>
+            <span class="badge rounded-pill about-badge">Safe & Timely</span>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12 shadow-sm p-3 mb-5 bg-body rounded-3">
+          <img src="https://t3.ftcdn.net/jpg/06/09/17/28/360_F_609172824_3aGSl8APxrmRROA4AXNL2ZcKrayp4Dpa.jpg"
+            class="card-img-top rounded-4" alt="Community" />
+          <div class="card-body py-3">
+            <p class="mb-0 about-caption">Care. Dignity. Nourishment.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================= -->
+  <!-- ACTIVITIES SECTION - Detailed programs and ongoing projects   -->
+  <!-- ================================================================= -->
+  <section id="activities" class="py-5 activities-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-lead">What We Do</p>
+        <h2 class="fw-bold section-title">Our Activities & Programs</h2>
+        <p class="text-muted mt-2">
+          We focus on impactful, sustainable initiatives that serve
+          communities with dignity and care.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
+            <div class="card-body">
+              <div class="activity-icon">
+                <i class="bi bi-arrow-repeat"></i>
+              </div>
+              <h5 class="fw-bold mt-3">Ongoing Projects</h5>
+              <p class="activity-text">
+                Daily food redistribution, volunteer coordination, and NGO
+                partnerships across multiple locations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
+            <div class="card-body">
+              <div class="activity-icon">
+                <i class="bi bi-check-circle-fill"></i>
+              </div>
+              <h5 class="fw-bold mt-3">Completed Projects</h5>
+              <p class="activity-text">
+                Successful food drives, emergency relief programs, and
+                awareness campaigns completed with partners.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
+            <div class="card-body">
+              <div class="activity-icon">
+                <i class="bi bi-lightbulb-fill"></i>
+              </div>
+              <h5 class="fw-bold mt-3">Future Plans</h5>
+              <p class="activity-text">
+                Expanding to rural regions, improving logistics, and building
+                a stronger volunteer ecosystem.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="activities" class="py-5 activities-section">
-      <div class="container">
-        <div class="text-center mb-5">
-          <p class="section-lead">What We Do</p>
-          <h2 class="fw-bold section-title">Our Activities & Programs</h2>
-          <p class="text-muted mt-2">
-            We focus on impactful, sustainable initiatives that serve
-            communities with dignity and care.
+    </div>
+  </section>
+  <!-- ================================================================= -->
+  <!-- DONATION SECTION - (Placeholder for upcoming content)         -->
+  <!-- ================================================================= -->
+  <section id="donation" class="py-5 impact-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="impact-lead">Our Contribution</p>
+        <h2 class="fw-bold impact-title">Our Impact</h2>
+        <p class="impact-subtitle">
+          Every number below represents a shared meal and a smiling face.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card impact-card border-0 shadow-sm rounded-4 text-center">
+            <div class="card-body py-5">
+              <h1 class="impact-number">25,000</h1>
+              <p class="impact-label">Meals Served</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card impact-card border-0 shadow-sm rounded-4 text-center">
+            <div class="card-body py-5">
+              <h1 class="impact-number">120</h1>
+              <p class="impact-label">NGO Partners</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card impact-card border-0 shadow-sm rounded-4 text-center">
+            <div class="card-body py-5">
+              <h1 class="impact-number">180</h1>
+              <p class="impact-label">Donor Kitchens</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================= -->
+  <!-- MEMBERSHIP SECTION - (Placeholder for upcoming content)       -->
+  <!-- ================================================================= -->
+  <section id="membership" class="py-5 membership-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-lead">Our Members</p>
+        <h2 class="fw-bold section-title">Membership & Contributions</h2>
+        <p class="text-muted mt-2">
+          Each member contributes not just resources, but real impact.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card membership-card border-0 shadow-sm rounded-4">
+            <div class="membership-image">
+              <img
+                src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/489829277_1137583318383201_1283347103325974380_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=SzhaefpeuW8Q7kNvwGIG9dj&_nc_oc=AdnIF_p60RlKtd7b4ydcmSJF7qNT-YdNw95jlOPhfdAvlbzaEhWXbt7RLelOnZLBC1I&_nc_zt=23&_nc_ht=scontent.fccu3-1.fna&_nc_gid=bVweYeTiu8-TUCibsIH2UA&oh=00_AfqEshYJ-F78wHZqyUQwTGzLbW3QQKIARUEwc3tt8Rg7Dw&oe=695C6509"
+                alt="Member" />
+            </div>
+
+            <div class="membership-content text-center">
+              <h5 class="fw-bold membership-name">Samrat Restaurant</h5>
+              <p class="membership-role">Active Donor and Distributor</p>
+
+              <div class="membership-stats">
+                <span><strong>₹1,50,000</strong><br />Money Donated</span>
+                <span><strong>3,200+</strong><br />Plates Served</span>
+                <span><strong>2023</strong><br />Joined</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card membership-card border-0 shadow-sm rounded-4">
+            <div class="membership-image">
+              <img src="https://fox5sandiego.com/wp-content/uploads/sites/15/2024/04/AP24079494231631.jpg"
+                alt="Member" />
+            </div>
+
+            <div class="membership-content text-center">
+              <h5 class="fw-bold membership-name">MacKenzie Scott</h5>
+              <p class="membership-role">Active Donor</p>
+
+              <div class="membership-stats">
+                <span><strong>₹8,00,000</strong><br />Money Donated</span>
+                <span><strong>1,900+</strong><br />Plates Served</span>
+                <span><strong>2022</strong><br />Joined</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card membership-card border-0 shadow-sm rounded-4">
+            <div class="membership-image">
+              <img
+                src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxUW1IinEmJz7dGRWWCdRfuYaYvs2ZuxjoHLitn8HOvAjWYm0tx38237OPVcHrCG8aBOoeMD2VmMm12S-CuEyGhf-yycrI1NAJuWHkglxFldBAkSxaKqSMoshmZIqRvcpU9WGL3=s680-w680-h510-rw"
+                alt="Member" />
+            </div>
+
+            <div class="membership-content text-center">
+              <h5 class="fw-bold membership-name">Om Restaurant</h5>
+              <p class="membership-role">Active Donor and Distributor</p>
+
+              <div class="membership-stats">
+                <span><strong>₹20,000</strong><br />Money Donated</span>
+                <span><strong>290+</strong><br />Plates Served</span>
+                <span><strong>2025</strong><br />Joined</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================= -->
+  <!-- NEWS SECTION - Latest updates and announcements              -->
+  <!-- ================================================================= -->
+  <section id="news" class="py-5 news-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-lead">Updates</p>
+        <h2 class="fw-bold section-title">News & Notices</h2>
+        <p class="text-muted mt-2">
+          Latest updates, announcements, and important information.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-6 col-12">
+          <h5 class="fw-bold mb-3 news-heading">Organization News</h5>
+
+          <div class="row g-3">
+            <div class="col-12">
+              <div class="news-card">
+                <span class="news-date">02 Sep 2025</span>
+                <p>Distributed 1,200 meals across city shelters.</p>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="news-card">
+                <span class="news-date">15 Sep 2025</span>
+                <p>New partnership announced with local restaurants.</p>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="news-card">
+                <span class="news-date">20 Aug 2025</span>
+                <p>Volunteer registration drive launched.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <h5 class="fw-bold mb-3 news-heading">Notices & Announcements</h5>
+
+          <div class="row g-3">
+            <div class="col-12">
+              <div class="news-card">
+                <span class="news-date">01 Sep 2025</span>
+                <p>Urgent: Volunteers required for flood relief.</p>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="news-card">
+                <span class="news-date">02 Sep 2025</span>
+                <p>Executive committee meeting on 22nd September.</p>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="news-card">
+                <span class="news-date">10 Sep 2025</span>
+                <p>Membership renewal deadline approaching.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================= -->
+  <!-- GALLERY SECTION - Highlighting our community impact           -->
+  <!-- ================================================================= -->
+  <section id="gallery" class="py-5 gallery-section">
+    <div class="container px-lg-4 px-3">
+      <div class="text-center mb-5">
+        <p class="section-lead">Moments</p>
+        <h2 class="fw-bold section-title">Our Gallery</h2>
+        <p class="text-muted mt-2">
+          A glimpse into the work, people, and impact we create together.
+        </p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-green"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-red"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-gray"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-green"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-red"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-gray"></div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-red"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-gray"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-green"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-red"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-gray"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="gallery-box bg-green"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ================================================================= -->
+  <!-- CONTACT SECTION - Form and contact details                    -->
+  <!-- ================================================================= -->
+  <section id="contact" class="py-5 contact-section">
+    <div class="container px-lg-4 px-3">
+      <div class="text-center mb-5">
+        <p class="section-lead">Get in Touch</p>
+        <h2 class="fw-bold section-title">Contact Us</h2>
+        <p class="text-muted mt-2">
+          We would love to hear from you. Reach out for support, queries, or
+          collaboration.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-5 col-12">
+          <div class="contact-info">
+            <div class="mb-4">
+              <h6 class="fw-bold contact-label">Address</h6>
+              <p class="contact-text">
+                N.L Goswami Street,<br />
+                Serampore, West Bengal- 712201
+              </p>
+            </div>
+
+            <div class="mb-4">
+              <h6 class="fw-bold contact-label">Phone</h6>
+              <p class="contact-text">+91 87772 56706</p>
+            </div>
+
+            <div class="mb-4">
+              <h6 class="fw-bold contact-label">Email</h6>
+              <p class="contact-text">support@happytummy.org</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7 col-12">
+          <div class="contact-form-wrapper">
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="full-name">Full Name <span class="text-pink fw-bold">*</span></label>
+                  <input type="text" class="form-control" name="Your_Name" id="full-name" required />
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email">Email <span class="text-pink fw-bold">*</span></label>
+                  <input type="email" class="form-control" id="email" name="Your_Email" required />
+                </div>
+
+                <div class="col-12">
+                  <label for="subject">Subject<span class="text-pink fw-bold">*</span></label>
+                  <input type="text" class="form-control" id="subject" name="Subject" required />
+                </div>
+
+                <div class="col-12">
+                  <label for="your_message">Your Messsage<span class="text-pink fw-bold">*</span></label>
+                  <textarea class="form-control" rows="4" id="your_message" name="Your_Message"></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" name="Send_Message" class="btn btn-success px-4">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-section py-5">
+    <div class="container-fluid px-lg-5">
+      <div class="row gy-4">
+        <div class="col-lg-3 col-md-6 col-12">
+          <h5 class="footer-title">Mohammadpur Probashi Foundation</h5>
+          <p class="footer-text">
+            A social initiative working to reduce food waste and redistribute
+            surplus food to NGOs and communities in need.
           </p>
         </div>
 
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
-              <div class="card-body">
-                <div class="activity-icon">
-                  <i class="bi bi-arrow-repeat"></i>
-                </div>
-                <h5 class="fw-bold mt-3">Ongoing Projects</h5>
-                <p class="activity-text">
-                  Daily food redistribution, volunteer coordination, and NGO
-                  partnerships across multiple locations.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#donation">Donations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
 
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
-              <div class="card-body">
-                <div class="activity-icon">
-                  <i class="bi bi-check-circle-fill"></i>
-                </div>
-                <h5 class="fw-bold mt-3">Completed Projects</h5>
-                <p class="activity-text">
-                  Successful food drives, emergency relief programs, and
-                  awareness campaigns completed with partners.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <h5 class="footer-title">Social Media</h5>
 
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
-              <div class="card-body">
-                <div class="activity-icon">
-                  <i class="bi bi-lightbulb-fill"></i>
-                </div>
-                <h5 class="fw-bold mt-3">Future Plans</h5>
-                <p class="activity-text">
-                  Expanding to rural regions, improving logistics, and building
-                  a stronger volunteer ecosystem.
-                </p>
-              </div>
-            </div>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
           </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <h5 class="footer-title">Contact Us</h5>
+          <ul class="footer-contact">
+            <li>📍 Serampore, West Bengal</li>
+            <li>📞 +91 87772 56706</li>
+            <li>✉️ support@happytummy.org</li>
+          </ul>
         </div>
       </div>
-    </section>
-    <section id="donation" class="py-5 impact-section">
-      <div class="container">
-        <div class="text-center mb-5">
-          <p class="impact-lead">Our Contribution</p>
-          <h2 class="fw-bold impact-title">Our Impact</h2>
-          <p class="impact-subtitle">
-            Every number below represents a shared meal and a smiling face.
-          </p>
-        </div>
 
-        <div class="row g-4 justify-content-center">
-          <div class="col-lg-4 col-md-6 col-12">
-            <div
-              class="card impact-card border-0 shadow-sm rounded-4 text-center"
-            >
-              <div class="card-body py-5">
-                <h1 class="impact-number">25,000</h1>
-                <p class="impact-label">Meals Served</p>
-              </div>
-            </div>
-          </div>
+      <hr class="footer-divider my-4" />
 
-          <div class="col-lg-4 col-md-6 col-12">
-            <div
-              class="card impact-card border-0 shadow-sm rounded-4 text-center"
-            >
-              <div class="card-body py-5">
-                <h1 class="impact-number">120</h1>
-                <p class="impact-label">NGO Partners</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-12">
-            <div
-              class="card impact-card border-0 shadow-sm rounded-4 text-center"
-            >
-              <div class="card-body py-5">
-                <h1 class="impact-number">180</h1>
-                <p class="impact-label">Donor Kitchens</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="text-center">
+        <p class="footer-copy mb-0">
+          © 2025 HappyTummy Foundation. All rights reserved.
+        </p>
       </div>
-    </section>
-    <section id="membership" class="py-5 membership-section">
-      <div class="container">
-        <div class="text-center mb-5">
-          <p class="section-lead">Our Members</p>
-          <h2 class="fw-bold section-title">Membership & Contributions</h2>
-          <p class="text-muted mt-2">
-            Each member contributes not just resources, but real impact.
-          </p>
-        </div>
+    </div>
+  </footer>
 
-        <div class="row g-4 justify-content-center">
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card membership-card border-0 shadow-sm rounded-4">
-              <div class="membership-image">
-                <img
-                  src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/489829277_1137583318383201_1283347103325974380_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=gCV55ap6woAQ7kNvwEHc5_8&_nc_oc=AdmpvcK6R7ixH_jPSJvuxCHQI4ASV_MMT-VYXg6z8FRCQltZH1u9dGaaULd8jE00vWs&_nc_zt=23&_nc_ht=scontent.fccu3-1.fna&_nc_gid=qLmpoTaTm6BvF_trTa_R2g&oh=00_Afkyi00mS95wSVEky_K5zKQ1AlHhMAh6m6GhzKz0mmNmDw&oe=6950BFC9"
-                  alt="Member"
-                />
-              </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
-              <div class="membership-content text-center">
-                <h5 class="fw-bold membership-name">Samrat Restaurant</h5>
-                <p class="membership-role">Active Donor and Distributor</p>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".heroSwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    })
+  </script>
+</body>
 
-                <div class="membership-stats">
-                  <span><strong>₹1,50,000</strong><br />Money Donated</span>
-                  <span><strong>3,200+</strong><br />Plates Served</span>
-                  <span><strong>2023</strong><br />Joined</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card membership-card border-0 shadow-sm rounded-4">
-              <div class="membership-image">
-                <img
-                  src="https://fox5sandiego.com/wp-content/uploads/sites/15/2024/04/AP24079494231631.jpg"
-                  alt="Member"
-                />
-              </div>
-
-              <div class="membership-content text-center">
-                <h5 class="fw-bold membership-name">MacKenzie Scott</h5>
-                <p class="membership-role">Active Donor</p>
-
-                <div class="membership-stats">
-                  <span><strong>₹8,00,000</strong><br />Money Donated</span>
-                  <span><strong>1,900+</strong><br />Plates Served</span>
-                  <span><strong>2022</strong><br />Joined</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card membership-card border-0 shadow-sm rounded-4">
-              <div class="membership-image">
-                <img
-                  src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxUW1IinEmJz7dGRWWCdRfuYaYvs2ZuxjoHLitn8HOvAjWYm0tx38237OPVcHrCG8aBOoeMD2VmMm12S-CuEyGhf-yycrI1NAJuWHkglxFldBAkSxaKqSMoshmZIqRvcpU9WGL3=s680-w680-h510-rw"
-                  alt="Member"
-                />
-              </div>
-
-              <div class="membership-content text-center">
-                <h5 class="fw-bold membership-name">Om Restaurant</h5>
-                <p class="membership-role">Active Donor and Distributor</p>
-
-                <div class="membership-stats">
-                  <span><strong>₹20,000</strong><br />Money Donated</span>
-                  <span><strong>290+</strong><br />Plates Served</span>
-                  <span><strong>2025</strong><br />Joined</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="news" class="py-5 news-section">
-      <div class="container">
-        <div class="text-center mb-5">
-          <p class="section-lead">Updates</p>
-          <h2 class="fw-bold section-title">News & Notices</h2>
-          <p class="text-muted mt-2">
-            Latest updates, announcements, and important information.
-          </p>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-lg-6 col-12">
-            <h5 class="fw-bold mb-3 news-heading">Organization News</h5>
-
-            <div class="row g-3">
-              <div class="col-12">
-                <div class="news-card">
-                  <span class="news-date">02 Sep 2025</span>
-                  <p>Distributed 1,200 meals across city shelters.</p>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="news-card">
-                  <span class="news-date">15 Sep 2025</span>
-                  <p>New partnership announced with local restaurants.</p>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="news-card">
-                  <span class="news-date">20 Aug 2025</span>
-                  <p>Volunteer registration drive launched.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-12">
-            <h5 class="fw-bold mb-3 news-heading">Notices & Announcements</h5>
-
-            <div class="row g-3">
-              <div class="col-12">
-                <div class="news-card">
-                  <span class="news-date">01 Sep 2025</span>
-                  <p>Urgent: Volunteers required for flood relief.</p>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="news-card">
-                  <span class="news-date">02 Sep 2025</span>
-                  <p>Executive committee meeting on 22nd September.</p>
-                </div>
-              </div>
-
-              <div class="col-12">
-                <div class="news-card">
-                  <span class="news-date">10 Sep 2025</span>
-                  <p>Membership renewal deadline approaching.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="gallery" class="py-5 gallery-section">
-      <div class="container px-lg-4 px-3">
-        <div class="text-center mb-5">
-          <p class="section-lead">Moments</p>
-          <h2 class="fw-bold section-title">Our Gallery</h2>
-          <p class="text-muted mt-2">
-            A glimpse into the work, people, and impact we create together.
-          </p>
-        </div>
-
-        <div class="row g-3">
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-green"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-red"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-gray"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-green"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-red"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-gray"></div>
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-red"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-gray"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-green"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-red"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-gray"></div>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-green"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact Form -->
-    <section id="contact" class="py-5 contact-section">
-      <div class="container px-lg-4 px-3">
-        <!-- Heading -->
-        <div class="text-center mb-5">
-          <p class="section-lead">Get in Touch</p>
-          <h2 class="fw-bold section-title">Contact Us</h2>
-          <p class="text-muted mt-2">
-            We would love to hear from you. Reach out for support, queries, or
-            collaboration.
-          </p>
-        </div>
-
-        <div class="row g-4">
-          <div class="col-lg-5 col-12">
-            <div class="contact-info">
-              <div class="mb-4">
-                <h6 class="fw-bold contact-label">Address</h6>
-                <p class="contact-text">
-                  N.L Goswami Street,<br />
-                  Serampore, West Bengal- 712201
-                </p>
-              </div>
-
-              <div class="mb-4">
-                <h6 class="fw-bold contact-label">Phone</h6>
-                <p class="contact-text">+91 87772 56706</p>
-              </div>
-
-              <div class="mb-4">
-                <h6 class="fw-bold contact-label">Email</h6>
-                <p class="contact-text">support@happytummy.org</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7 col-12">
-            <div class="contact-form-wrapper">
-              <form>
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <label for="full-name"
-                      >Full Name <span class="text-pink fw-bold">*</span></label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Your Name"
-                      id="full-name"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Subject"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-12">
-                    <textarea
-                      class="form-control"
-                      rows="4"
-                      placeholder="Your Message"
-                    ></textarea>
-                  </div>
-
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-success px-4">
-                      Send Message
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="footer-section py-5">
-      <div class="container-fluid px-lg-5">
-        <div class="row gy-4">
-          <div class="col-lg-3 col-md-6 col-12">
-            <h5 class="footer-title">Mohammadpur Probashi Foundation</h5>
-            <p class="footer-text">
-              A social initiative working to reduce food waste and redistribute
-              surplus food to NGOs and communities in need.
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-12">
-            <h5 class="footer-title">Quick Links</h5>
-            <ul class="footer-list">
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#activities">Activities</a></li>
-              <li><a href="#donation">Donations</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-12">
-            <h5 class="footer-title">Social Media</h5>
-
-            <div class="footer-social">
-              <a href="#" aria-label="Facebook"
-                ><i class="bi bi-facebook"></i
-              ></a>
-              <a href="#" aria-label="Instagram"
-                ><i class="bi bi-instagram"></i
-              ></a>
-              <a href="#" aria-label="Twitter"
-                ><i class="bi bi-twitter-x"></i
-              ></a>
-              <a href="#" aria-label="LinkedIn"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-12">
-            <h5 class="footer-title">Contact Us</h5>
-            <ul class="footer-contact">
-              <li>📍 Serampore, West Bengal</li>
-              <li>📞 +91 87772 56706</li>
-              <li>✉️ support@happytummy.org</li>
-            </ul>
-          </div>
-        </div>
-
-        <hr class="footer-divider my-4" />
-
-        <div class="text-center">
-          <p class="footer-copy mb-0">
-            © 2025 HappyTummy Foundation. All rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".heroSwiper", {
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      })
-    </script>
-  </body>
 </html>
