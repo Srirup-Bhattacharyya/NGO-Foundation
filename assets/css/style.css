@@ -19,6 +19,22 @@ body {
   width: 20rem;
 }
 
+.small-logo {
+  display: none;
+}
+
+@media (max-width: 512px) {
+  .logo {
+    display: none;
+  }
+
+  .small-logo {
+    display: block;
+    width: 5rem;
+    height: 7rem;
+  }
+}
+
 .hero-section {
   background-color: var(--white);
   height: 75vh;
