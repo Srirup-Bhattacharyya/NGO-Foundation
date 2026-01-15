@@ -54,6 +54,7 @@ body {
   height: 100%;
   width: 100%;
   text-align: center;
+  position: relative;
   font-size: 18px;
   background: #444;
   display: flex;
@@ -66,6 +67,41 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Target all pagination bullets */
+.heroSwiper .swiper-pagination-bullet {
+  width: 35px;
+  height: 4px;
+  background: #333;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.heroSwiper .swiper-pagination-bullet-active {
+  width: 60px;
+  background: #33978A;
+  opacity: 1;
+}
+
+.slide-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: left;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.129) 0%, rgba(193, 193, 193, 0.254) 50%, rgba(36, 36, 36, 0.504) 100%);
+  color: #fff;
+  padding: 8rem 3rem;
+}
+
+.slide-overlay span {
+  font-size: larger;
 }
 
 /* .hero-section .badge-text {
@@ -356,10 +392,10 @@ body {
 }
 
 .glass-message-box {
-  color: rgba(255, 255, 255, 0.767);
+  color: rgba(255, 255, 255, 0.89);
   padding: 10px 20px;
   border-radius: 5px;
-  background: linear-gradient(219deg, rgba(25, 135, 84, 1) 50%, rgba(255, 255, 255, 1) 100%);
+  background: rgba(25, 135, 84, 0.568);
   opacity: 0.75;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -367,6 +403,11 @@ body {
 .form-control {
   border-radius: 0.6rem;
   resize: none;
+}
+
+.form-control:focus {
+  border-color: #28a7463b;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 70, 0.151);
 }
 
 .footer-section {
