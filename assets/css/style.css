@@ -69,7 +69,6 @@ body {
   object-fit: cover;
 }
 
-/* Target all pagination bullets */
 .heroSwiper .swiper-pagination-bullet {
   width: 35px;
   height: 4px;
