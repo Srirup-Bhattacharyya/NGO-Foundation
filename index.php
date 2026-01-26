@@ -19,7 +19,7 @@
                 alt="">
               <div class="slide-overlay">
                 <header>Lorem ipsum dolor sit</header>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
+                <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
                   dolores, aut odit quas illo inventore ratione beatae necessitatibus maiores incidunt distinctio ad
                   eligendi cupiditate atque perferendis.</p>
               </div>
@@ -30,7 +30,7 @@
                 alt="">
               <div class="slide-overlay">
                 <header>Lorem ipsum dolor sit</header>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
+                <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
                   dolores, aut odit quas illo inventore ratione beatae necessitatibus maiores incidunt distinctio ad
                   eligendi cupiditate atque perferendis.</p>
               </div>
@@ -41,7 +41,7 @@
                 alt="">
               <div class="slide-overlay">
                 <header>Lorem ipsum dolor sit</header>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
+                <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
                   dolores, aut odit quas illo inventore ratione beatae necessitatibus maiores incidunt distinctio ad
                   eligendi cupiditate atque perferendis.</p>
               </div>
@@ -52,7 +52,7 @@
                 alt="">
               <div class="slide-overlay">
                 <header>Lorem ipsum dolor sit</header>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
+                <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
                   dolores, aut odit quas illo inventore ratione beatae necessitatibus maiores incidunt distinctio ad
                   eligendi cupiditate atque perferendis.</p>
               </div>
@@ -63,7 +63,7 @@
                 alt="">
               <div class="slide-overlay">
                 <header>Lorem ipsum dolor sit</header>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
+                <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ipsa pariatur reprehenderit doloribus
                   dolores, aut odit quas illo inventore ratione beatae necessitatibus maiores incidunt distinctio ad
                   eligendi cupiditate atque perferendis.</p>
               </div>
@@ -380,43 +380,151 @@
           </p>
         </div>
 
-        <div class="row g-3">
+        <div class="row g-2">
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-green"></div>
+            <div class="gallery-box bg-green">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-red"></div>
+            <div class="gallery-box bg-red">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-gray"></div>
+            <div class="gallery-box bg-gray">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-green"></div>
+            <div class="gallery-box bg-green">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-red"></div>
+            <div class="gallery-box bg-red">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-gray"></div>
+            <div class="gallery-box bg-gray">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-red"></div>
+            <div class="gallery-box bg-red">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-gray"></div>
+            <div class="gallery-box bg-gray">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-green"></div>
+            <div class="gallery-box bg-green">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-red"></div>
+            <div class="gallery-box bg-red">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-gray"></div>
+            <div class="gallery-box bg-gray">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-2 col-md-4 col-6">
-            <div class="gallery-box bg-green"></div>
+            <div class="gallery-box bg-green">
+              <div class="gallery-card-overlay">
+                <h6 class="name">Vladimir Gruev</h6>
+                <p class="role">Digital Designer</p>
+                <div class="pills">
+                  <span>Brand</span>
+                  <span>Design</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
