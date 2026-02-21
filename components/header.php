@@ -17,3 +17,4 @@
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="./assets/js/custom.js" defer></script>

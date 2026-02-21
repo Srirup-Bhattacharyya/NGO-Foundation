@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm">
+  <nav class="navbar navbar-expand-xl navbar-light bg-white shadow-sm w-100">
     <div class="container-fluid px-5">
       <a class="navbar-brand" href="index.php">
         <img src="./assets/logo/Name.svg" alt="NGO-Logo" class="logo" />
@@ -12,7 +12,7 @@
         <ul class="navbar-nav fw-medium">
           <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="about.php">About Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#activities">Activities</a>
@@ -23,12 +23,15 @@
           <li class="nav-item">
             <a class="nav-link" href="#membership">Membership</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="news.php">News</a></li>
           <li class="nav-item">
             <a class="nav-link" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contact</a>
+          </li>
+          <li class="nav-item">
+            <div class="lang-toggler"><a class="nav-link" href=""><i class="bi bi-translate fs-4"></i></a></div>
           </li>
         </ul>
       </div>

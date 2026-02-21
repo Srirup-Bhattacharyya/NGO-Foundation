@@ -23,6 +23,16 @@ body {
   display: none;
 }
 
+.navbar {
+  position: fixed;
+  z-index: 999;
+  opacity: 0.92;
+}
+
+.nav-gap {
+  padding-top: 5rem;
+}
+
 @media (max-width: 512px) {
   .logo {
     display: none;

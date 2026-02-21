@@ -191,34 +191,36 @@
           </p>
         </div>
 
-        <div class="row g-4 justify-content-center">
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card impact-card border-0 shadow-sm rounded-4 text-center">
-              <div class="card-body py-5">
-                <h1 class="impact-number">25,000</h1>
-                <p class="impact-label">Meals Served</p>
-              </div>
-            </div>
-          </div>
+       <div class="row g-4 justify-content-center">
 
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card impact-card border-0 shadow-sm rounded-4 text-center">
-              <div class="card-body py-5">
-                <h1 class="impact-number">120</h1>
-                <p class="impact-label">NGO Partners</p>
-              </div>
-            </div>
-          </div>
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="card impact-card border-0 shadow-sm rounded-4 text-center reveal slide-up delay-0">
+      <div class="card-body py-5">
+        <h1 class="impact-number counter__num" data-target="25000">0</h1>
+        <p class="impact-label">Meals Served</p>
+      </div>
+    </div>
+  </div>
 
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card impact-card border-0 shadow-sm rounded-4 text-center">
-              <div class="card-body py-5">
-                <h1 class="impact-number">180</h1>
-                <p class="impact-label">Donor Kitchens</p>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="card impact-card border-0 shadow-sm rounded-4 text-center reveal slide-up delay-1">
+      <div class="card-body py-5">
+        <h1 class="impact-number counter__num" data-target="120">0</h1>
+        <p class="impact-label">NGO Partners</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="card impact-card border-0 shadow-sm rounded-4 text-center reveal slide-up delay-2">
+      <div class="card-body py-5">
+        <h1 class="impact-number counter__num" data-target="180">0</h1>
+        <p class="impact-label">Donor Kitchens</p>
+      </div>
+    </div>
+  </div>
+
+</div>  
       </div>
     </section>
 
@@ -278,7 +280,7 @@
             <div class="card membership-card border-0 shadow-sm rounded-4">
               <div class="membership-image">
                 <img
-                  src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxUW1IinEmJz7dGRWWCdRfuYaYvs2ZuxjoHLitn8HOvAjWYm0tx38237OPVcHrCG8aBOoeMD2VmMm12S-CuEyGhf-yycrI1NAJuWHkglxFldBAkSxaKqSMoshmZIqRvcpU9WGL3=s680-w680-h510-rw"
+                  src="https://www.touchbistro.com/wp-content/uploads/2024/02/what-is-table-service-in-a-restaurant-thumbnail.jpg"
                   alt="Member" />
               </div>
 
