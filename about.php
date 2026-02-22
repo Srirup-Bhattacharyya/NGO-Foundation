@@ -5,113 +5,101 @@
 
     <?php include './components/nav.php'; ?>
 
-    <!-- ===== Main About Section ===== -->
-    <section id="about" class="nav-gap">
+    <section id="about --bs-tertiary-bg" class="nav-gap">
+      <div class="about-us-image w-100 h-5 position-relative">
+        <img src="assets\pictures\AboutUsBanner.png" alt="">
+        <div class="position-absolute gradientbox d-flex justify-content-between align-items-center">
+          <div class="parentpath text-light"><a class="text-decoration-none text-reset" href="index.php">Home</a></div>
+          <i class="bi bi-chevron-right text-warning"></i>
+          <div class="currentpath text-warning">About Us</div>
+        </div>
+      </div>
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-
-            <p class="about-lead">About Our Mission</p>
-
-            <h2 class="fw-bold mb-4 about-title">Who we are</h2>
-
-            <p class="about-text">
-              Mohammadpur Probashi Foundation is a food-redistribution
-              initiative inspired by organizations like FoodBox Foundation.
-              We help restaurants, caterers, and home kitchens donate their extra,
-              safe-to-eat food to verified NGOs, shelters, and community groups.
-            </p>
-
-            <p class="about-text">
-              Our model reduces food waste, lowers carbon impact, and supports
-              vulnerable communities. With a caring network of partners and
-              volunteers, we ensure surplus meals reach plates – not landfills.
-            </p>
-
-            <div class="mt-4">
-              <span class="badge rounded-pill about-badge">Food Rescue</span>
-              <span class="badge rounded-pill about-badge">Zero Waste</span>
-              <span class="badge rounded-pill about-badge">Community First</span>
-              <span class="badge rounded-pill about-badge">Safe & Timely</span>
-            </div>
-
+        <section class="mission-section">
+          <div class="mission-container">
+            <i class="bi bi-quote"></i>
+            <blockquote>
+              The mission lies not only in granting the wishes of children suffering 
+              from critical illnesses, but Make-A-Wish® UAE also aims to strengthen 
+              these children’s faith, along with their families and loved ones, when 
+              they all witness the children’s wishes being granted. This will bring 
+              Hope, Strength, and Joy to their young lives.
+            </blockquote>
           </div>
-
-          <div class="col-lg-6 col-12 shadow-sm p-3 mb-5 bg-body rounded-3">
-            <img src="https://t3.ftcdn.net/jpg/06/09/17/28/360_F_609172824_3aGSl8APxrmRROA4AXNL2ZcKrayp4Dpa.jpg"
-              class="card-img-top rounded-4" alt="Community" />
-            <div class="card-body py-3">
-              <p class="mb-0 about-caption">Care. Dignity. Nourishment.</p>
-            </div>
-          </div>
-
-        </div>
+        </section>     
       </div>
     </section>
+    <div class="container about-single-text">
+      <div class="row align-items-start g-4 pb-3">
 
-
-    <!-- ===== Extra About Info Cards Section ===== -->
-    <section class="container py-5">
-        <div class="container">
-          <div class="row justify-content-center mb-5">
-            <div class="col-lg-8 text-center">
-              <h2 class="fw-bold about-title">About Us</h2>
-              <p class="about-text">
-                We are committed to fighting hunger and building a stronger,
-                more compassionate community.
-                Through partnerships and volunteers, we ensure meals reach those who need them most.
-              </p>
-            </div>
-          </div>  
-        </div>
-
-        <div class="row justify-content-center mb-5">
-          <div class="col-lg-4 col-md-6 col-12">
-              <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
-                <div class="card-body">
-                  <div class="activity-icon">
-                    <i class="bi bi-bullseye"></i>
-                  </div>
-                  <h5 class="fw-bold mt-3">Our Mission</h5>
-                  <p class="activity-text">
-                   To eliminate hunger by connecting surplus food with communities in need.
-                  </p>
-                </div>
-              </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
-              <div class="card-body">
-                <div class="activity-icon">
-                  <i class="bi bi-eye-fill"></i>
-                </div>
-                <h5 class="fw-bold mt-3">Our Vision</h5>
-                <p class="activity-text">
-                   A world where no meal is wasted and no person sleeps hungry.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card activity-card h-100 border-0 shadow-sm rounded-4">
-              <div class="card-body">
-                <div class="activity-icon">
-                  <i class="bi bi-arrow-through-heart-fill"></i>
-                </div>
-                <h5 class="fw-bold mt-3">Our Values</h5>
-                <p class="activity-text">
-                  Transparency, compassion, collaboration, and community empowerment.
-                </p>
-            </div>
+        <div class="col-lg-6">
+          <div class="ratio ratio-16x9 shadow">
+            <iframe 
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+              title="Make A Wish UAE"
+              allowfullscreen>
+            </iframe>
           </div>
         </div>
 
+        <div class="col-lg-6">
+          <p>
+            In 2010, Make-A-Wish® UAE was established under the kind patronage of Her Highness 
+            Sheikha Bint Mohamed Bin Saif Al Nahyan, as a fully licensed establishment from the 
+            Ministry of Social Affairs of the United Arab Emirates, only to become one of the most 
+            successful organizations to date.
+          </p>
+
+          <p>
+            Since 2021, Make-A-Wish® UAE has granted more than 7000 wishes for children with a 
+            critical illness, with this amazing feat, it has brought happiness and joy to those 
+            most vulnerable children and their families and loved ones.
+          </p>
+
+          <p>
+            In order for Make-A-Wish® UAE to grant these wishes, it counts on the generous 
+            donations and participation of companies, establishments, and generous individuals 
+            who are kind enough to lend their support and sponsorship.
+          </p>
+
+        </div>
 
       </div>
-    </section>
+      <p>
+        The volunteers participate in many tasks from granting the wishes to the organization 
+        and administrative requirements of running this humanitarian ship.
+      </p>
 
+      <p>
+        Make-A-Wish® UAE plans to extend its area of operations to include the GCC and the 
+        entire Arab world.
+      </p>
+
+      <p>
+        Make-A-Wish® has become an internationally recognized organization, with new chapters opening all around the world, and the future is bright as more and more generous contributors join hand to make an innocent child’s wish come true we would like to invite you to become one of those who grant a child’s wish, those who make an innocent dream come true. To embrace the spirit of Make-A-Wish®.
+      </p>
+    </div>
+    
+    <div class="newsletter-section">
+      <div class="newsletter-card">
+
+        <h4 class="newsletter-title">Stay Updated !</h4>
+
+        <p class="newsletter-text">
+          Subscribe to receive news and announcements directly in your inbox.
+        </p>
+
+        <div class="newsletter-form">
+          <input type="email" placeholder="Enter your email address">
+          <button>Subscribe</button>
+        </div>
+
+        <p class="newsletter-note">
+          We respect your privacy. Unsubscribe at any time.
+        </p>
+
+      </div>
+    </div>
     <?php include './components/footer.php'; ?>
 
   </div>
